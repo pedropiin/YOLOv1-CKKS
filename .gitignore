@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Dataset
+dataset/
+*.jpg
+labels.csv

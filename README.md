@@ -1,2 +1,2 @@
-# YOLOv1-ckks
-Implementation of encrypted YOLOv1 object detection model with Fully Homomorphic Encryption
+# YOLOv1-CKKS
+Implementation of a encrypted YOLOv1 object detection model with CKKS Fully Homomorphic Encryption scheme
