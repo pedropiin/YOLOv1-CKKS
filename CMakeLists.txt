@@ -52,6 +52,8 @@ else()
 	link_libraries( ${OpenFHE_SHARED_LIBRARIES} )
 endif()
 
+add_executable(YOLOv1-CKKS src/main.cpp src/stb_image.h)
+
 ### ADD YOUR EXECUTABLE(s) HERE
 ### add_executable( EXECUTABLE-NAME SOURCES )
 ### 
