@@ -1,3 +1,0 @@
-/home/pedro/uni/ic/YOLOv1-CKKS/build/CMakeFiles/YOLOv1-CKKS.dir
-/home/pedro/uni/ic/YOLOv1-CKKS/build/CMakeFiles/edit_cache.dir
-/home/pedro/uni/ic/YOLOv1-CKKS/build/CMakeFiles/rebuild_cache.dir
