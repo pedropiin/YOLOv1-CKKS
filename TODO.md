@@ -9,7 +9,10 @@
                 with FirstModSize = 60 as default. So I'll
                 test both
             - BatchSize
-                - Can be number of parking spots in image (15) or only one for the whole image
+                - Can be number of parking spots in image (15) or 
+                only one for the whole image
+                - In reality, it may be the number of pixels as we
+                are working with only one image
             - ScalingTechnique 
                 - FLEXIBLEAUTOEXT for a quick prototype
             - NumLargeDigits
@@ -33,14 +36,14 @@
     - Generate Context 
         - CryptoContext<DCRTPoly> context;
 
+    - Enable()
+        - PKE
+        - KEYSWITCH
+        - LEVELEDSHE
+        - ADVANCEDSHE
+        - FHE
 
     - Generate Keys
-        - Enable()
-            - PKE
-            - KEYSWITCH
-            - LEVELEDSHE
-            - ADVANCEDSHE
-            - FHE
         - KeyGen()
         - EvalMultKeyGen(keys.secretKey)
         - As there are multiple layers in the YOLO CNN, I need
